@@ -15,7 +15,10 @@ class CustomPadding extends StatelessWidget {
 
         return Padding(
           padding: EdgeInsets.symmetric(
-            horizontal: horizontalPadding.clamp(AppSizes.lowPadding, AppSizes.heightPadding),
+            horizontal: horizontalPadding.clamp(
+              AppSizes.lowPadding,
+              AppSizes.heightPadding,
+            ),
           ),
           child: child,
         );

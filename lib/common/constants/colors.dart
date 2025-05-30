@@ -6,4 +6,8 @@ abstract class AppColors {
   static final dividerColor = Color(0xff262626);
 
   static final secondryDividerColor = Color(0xff484848);
+
+  static final filiterBackgroundColor = Color(0xff171717);
+
+  static final orangeColor = Color(0xffFFC268);
 }

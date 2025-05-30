@@ -8,6 +8,10 @@ class SettingIconWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SvgPicture.asset(AppAssets.imagesSetting);
+    return InkWell(
+      overlayColor: WidgetStatePropertyAll(Colors.transparent),
+      child: SvgPicture.asset(AppAssets.imagesSetting),
+      onTap: () {},
+    );
   }
 }

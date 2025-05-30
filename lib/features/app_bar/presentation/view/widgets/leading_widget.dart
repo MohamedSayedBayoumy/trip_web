@@ -11,7 +11,6 @@ class LeadingWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
- 
     return Container(
       width:
           ((MediaQuery.sizeOf(context).width) * .5) -
@@ -28,7 +27,14 @@ class LeadingWidget extends StatelessWidget {
             SizedBox(width: 10.0),
           ],
 
-          SvgPicture.asset(AppAssets.imagesLogo, semanticsLabel: 'Logo'),
+          InkWell(
+            overlayColor: WidgetStatePropertyAll(Colors.transparent),
+            onTap: () {},
+            child: SvgPicture.asset(
+              AppAssets.imagesLogo,
+              semanticsLabel: 'Logo',
+            ),
+          ),
         ],
       ),
     );

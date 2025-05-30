@@ -8,6 +8,10 @@ class AlertIconWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SvgPicture.asset(AppAssets.imagesAlert);
+    return InkWell(
+      overlayColor: WidgetStatePropertyAll(Colors.transparent),
+      child: SvgPicture.asset(AppAssets.imagesAlert),
+      onTap: () {},
+    );
   }
 }

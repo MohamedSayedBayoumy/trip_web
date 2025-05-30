@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
+import 'tool_bar_widget.dart';
+
 class HomeTabletViewWidget extends StatelessWidget {
   const HomeTabletViewWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("Tablet"));
+    return Column(children: [ToolBarWidget()]);
   }
 }
