@@ -12,23 +12,29 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  shadcn_ui:
+  go_router:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/common/constants
+  filename: assets.dart
+  field_prefix: null
+  classname: AppAssets
+
   flutter_lints: ^5.0.0
 
 flutter:
-
-  
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
 
-  
   # example:
   fonts:
     - family: Inter
