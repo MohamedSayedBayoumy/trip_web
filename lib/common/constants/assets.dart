@@ -10,6 +10,10 @@ class AppAssets {
   /// assets/images/calendar.svg
   static const String imagesCalendar = "assets/images/calendar.svg";
 
+  /// Assets for imagesErrorImage
+  /// assets/images/error_image.jpg
+  static const String imagesErrorImage = "assets/images/error_image.jpg";
+
   /// Assets for imagesLogo
   /// assets/images/logo.svg
   static const String imagesLogo = "assets/images/logo.svg";

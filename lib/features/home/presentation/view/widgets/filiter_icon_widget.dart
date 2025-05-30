@@ -15,7 +15,6 @@ class FiliterIconWidget extends StatelessWidget {
       decoration: ShadDecoration(shape: BoxShape.circle),
       backgroundColor: AppColors.filiterBackgroundColor,
       icon: SvgPicture.asset(AppAssets.imagesSliders),
-      onPressed: () => print('Secondary'),
     );
   }
 }

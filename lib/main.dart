@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       darkTheme: ShadThemeData(
         brightness: Brightness.dark,
-        colorScheme: const ShadSlateColorScheme.dark(),
+        colorScheme: const ShadSlateColorScheme.dark(background: Colors.black),
         textTheme: ShadTextTheme(family: "Inter"),
         breakpoints: ShadBreakpoints(md: 0, lg: 700, xl: 1200),
       ),

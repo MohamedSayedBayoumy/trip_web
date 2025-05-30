@@ -16,7 +16,7 @@ class ActionsWebViewWidget extends StatelessWidget {
           endIndent: 11,
           indent: 11,
           width: 3,
-          color: AppColors.dividerColor,
+          color: AppColors.blackColor,
         ),
         SizedBox(width: 24),
 

@@ -16,7 +16,7 @@ class NavBar extends StatelessWidget {
       height: 80.0,
       padding: EdgeInsets.symmetric(vertical: 18),
       decoration: BoxDecoration(
-        border: Border(bottom: BorderSide(color: AppColors.dividerColor)),
+        border: Border(bottom: BorderSide(color: AppColors.blackColor)),
       ),
       child: CustomPadding(
         child: Row(

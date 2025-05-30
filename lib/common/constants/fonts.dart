@@ -7,7 +7,7 @@ abstract class AppFont {
   static TextStyle styleRegular12 = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
-    fontSize: getResponsiveText(fontSize: 18),
+    fontSize: getResponsiveText(fontSize: 12),
     color: AppColors.secondryWhiteColor,
   );
 
@@ -30,6 +30,13 @@ abstract class AppFont {
     fontWeight: FontWeight.w500,
     fontSize: getResponsiveText(fontSize: 14),
     color: Colors.white,
+  );
+
+  static TextStyle styleMeduim9 = TextStyle(
+    fontFamily: "Inter",
+    fontWeight: FontWeight.w500,
+    fontSize: getResponsiveText(fontSize: 9),
+    color: AppColors.orangeColor,
   );
 
   static TextStyle styleMeduim32 = TextStyle(
