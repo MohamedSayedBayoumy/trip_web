@@ -15,6 +15,8 @@ dependencies:
   shadcn_ui:
   go_router:
   animate_do:
+  flutter_bloc:
+  get_it:
 
 dev_dependencies:
   flutter_test:
