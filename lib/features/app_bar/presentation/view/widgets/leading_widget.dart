@@ -19,9 +19,12 @@ class LeadingWidget extends StatelessWidget {
         children: [
           if (AppUtils.isMobile(context) == true) ...[
             FadeIn(
-              child: SvgPicture.asset(
-                AppAssets.imagesMenu,
-                semanticsLabel: 'Menu',
+              child: InkWell(
+                onTap: () {},
+                child: SvgPicture.asset(
+                  AppAssets.imagesMenu,
+                  semanticsLabel: 'Menu',
+                ),
               ),
             ),
             SizedBox(width: 10.0),

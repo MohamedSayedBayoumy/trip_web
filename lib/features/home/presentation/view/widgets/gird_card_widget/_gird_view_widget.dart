@@ -17,7 +17,10 @@ class GirdViewWidget extends StatelessWidget {
       child: GridView.builder(
         itemCount: items.length,
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-          maxCrossAxisExtent: 244,
+          maxCrossAxisExtent:
+              MediaQuery.sizeOf(context).width < 450
+                  ? MediaQuery.sizeOf(context).width
+                  : 244,
           mainAxisExtent: 280,
           crossAxisSpacing: 16,
           mainAxisSpacing: 20,
