@@ -14,6 +14,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   shadcn_ui:
   go_router:
+  animate_do:
 
 dev_dependencies:
   flutter_test:

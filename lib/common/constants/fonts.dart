@@ -4,35 +4,35 @@ import 'package:trip_web/common/constants/colors.dart';
 import '../utils/app_utlis.dart';
 
 abstract class AppFont {
-  TextStyle styleRegular12 = TextStyle(
+  static TextStyle styleRegular12 = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontSize: getResponsiveText(fontSize: 18),
     color: AppColors.secondryWhiteColor,
   );
 
-  TextStyle styleRegular18 = TextStyle(
+  static TextStyle styleRegular18 = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontSize: getResponsiveText(fontSize: 18),
     color: AppColors.secondryWhiteColor,
   );
 
-  TextStyle styleRegular14 = TextStyle(
+  static TextStyle styleRegular14 = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontSize: getResponsiveText(fontSize: 14),
     color: Colors.white,
   );
 
-  TextStyle styleMeduim14 = TextStyle(
+  static TextStyle styleMeduim14 = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w500,
     fontSize: getResponsiveText(fontSize: 14),
     color: Colors.white,
   );
 
-  TextStyle styleMeduim32 = TextStyle(
+  static TextStyle styleMeduim32 = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
     fontSize: getResponsiveText(fontSize: 32),

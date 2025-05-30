@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shadcn_ui/shadcn_ui.dart';
 
-import '../../features/app_bar/presentation/view/screens/app_bar.dart';
+import '../../features/app_bar/presentation/view/screens/nav_bar.dart';
 
 class LayoutBuilderWidget extends StatelessWidget {
   final Widget mobileView, tabletView, webView;
@@ -15,18 +15,24 @@ class LayoutBuilderWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(),
-      body: ShadResponsiveBuilder(
-        builder: (context, breakpoint) {
-          return switch (breakpoint) {
-            ShadBreakpointTN() => mobileView,
-            ShadBreakpointSM() => mobileView,
-            ShadBreakpointMD() => mobileView,
-            ShadBreakpointLG() => tabletView,
-            ShadBreakpointXL() => webView,
-            ShadBreakpointXXL() => webView,
-          };
-        },
+      body: Column(
+        children: [
+          NavBar(),
+          Expanded(
+            child: ShadResponsiveBuilder(
+              builder: (context, breakpoint) {
+                return switch (breakpoint) {
+                  ShadBreakpointTN() => mobileView,
+                  ShadBreakpointSM() => mobileView,
+                  ShadBreakpointMD() => mobileView,
+                  ShadBreakpointLG() => tabletView,
+                  ShadBreakpointXL() => webView,
+                  ShadBreakpointXXL() => webView,
+                };
+              },
+            ),
+          ),
+        ],
       ),
     );
   }

@@ -14,6 +14,10 @@ class AppAssets {
   /// assets/images/logo.svg
   static const String imagesLogo = "assets/images/logo.svg";
 
+  /// Assets for imagesMenu
+  /// assets/images/menu.svg
+  static const String imagesMenu = "assets/images/menu.svg";
+
   /// Assets for imagesPlus
   /// assets/images/plus.svg
   static const String imagesPlus = "assets/images/plus.svg";
@@ -25,5 +29,9 @@ class AppAssets {
   /// Assets for imagesSliders
   /// assets/images/sliders.svg
   static const String imagesSliders = "assets/images/sliders.svg";
+
+  /// Assets for imagesUserImage
+  /// assets/images/user_image.jpg
+  static const String imagesUserImage = "assets/images/user_image.jpg";
 }
 
