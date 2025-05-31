@@ -16,13 +16,12 @@ class UserListAndTasksStatusWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-     
     return Row(
       children: [
         Expanded(child: UserListWidget(users: participants)),
         Expanded(
           child: FittedBox(
-            child: Text(
+            child: SelectableText(
               "${unFinisedTaskCount} unfinished tasks",
               style: AppFont.styleRegular12.copyWith(),
             ),

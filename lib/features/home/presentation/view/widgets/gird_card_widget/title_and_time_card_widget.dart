@@ -20,7 +20,7 @@ class TitleAndTimeCardWIidget extends StatelessWidget {
       children: [
         FittedBox(
           fit: BoxFit.scaleDown,
-          child: Text(
+          child: SelectableText(
             title,
             style: AppFont.styleRegular18.copyWith(color: Colors.white),
           ),
@@ -35,7 +35,7 @@ class TitleAndTimeCardWIidget extends StatelessWidget {
               child: FittedBox(
                 alignment: AlignmentDirectional.centerStart,
                 fit: BoxFit.scaleDown,
-                child: Text(time, maxLines: 1, style: AppFont.styleRegular12),
+                child: SelectableText(time, maxLines: 1, style: AppFont.styleRegular12),
               ),
             ),
           ],
