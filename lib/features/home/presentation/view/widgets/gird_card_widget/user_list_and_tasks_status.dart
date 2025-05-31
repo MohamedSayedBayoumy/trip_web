@@ -23,7 +23,7 @@ class UserListAndTasksStatusWidget extends StatelessWidget {
         Expanded(
           child: FittedBox(
             child: Text(
-              "4 unfinished tasks",
+              "${unFinisedTaskCount} unfinished tasks",
               style: AppFont.styleRegular12.copyWith(),
             ),
           ),
