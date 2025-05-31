@@ -21,8 +21,6 @@ class HomeCubit extends Cubit<HomeState> {
 
     log("${trips.first}");
 
-    Future.delayed(Duration(seconds: 1), () {
-      emit(LoadedGetHomeData());
-    });
+    emit(LoadedGetHomeData());
   }
 }

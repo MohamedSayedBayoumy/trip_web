@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:shadcn_ui/shadcn_ui.dart';
-import 'package:trip_web/common/constants/assets.dart';
 
 import '../../../../../../common/constants/fonts.dart';
 import '../../../../domain/entites/trip_entite.dart';
