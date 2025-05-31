@@ -18,6 +18,13 @@ abstract class AppFont {
     color: AppColors.secondryWhiteColor,
   );
 
+  static TextStyle styleRegular25 = TextStyle(
+    fontFamily: "Inter",
+    fontWeight: FontWeight.w400,
+    fontSize: getResponsiveText(fontSize: 25),
+    color: Colors.white,
+  );
+
   static TextStyle styleRegular14 = TextStyle(
     fontFamily: "Inter",
     fontWeight: FontWeight.w400,
