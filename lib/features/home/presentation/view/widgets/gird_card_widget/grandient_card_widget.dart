@@ -23,7 +23,7 @@ class GrandientCardWidget extends StatelessWidget {
           ],
           stops: [0.4, 0.5, 0.6, 0.7],
         ),
-        borderRadius: BorderRadius.vertical(bottom: Radius.circular(20.0)),
+        borderRadius: BorderRadius.circular(10.0),
       ),
 
       child: child,

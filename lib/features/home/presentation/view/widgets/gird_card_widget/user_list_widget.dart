@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 
 import '../../../../../../common/constants/colors.dart';
 import '../../../../../../common/constants/fonts.dart';
+import '../../../../domain/entites/trip_entite.dart';
 
 class UserListWidget extends StatelessWidget {
   const UserListWidget({super.key, required this.users});
 
-  final List<String> users;
+  final List<Participant> users;
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +26,7 @@ class UserListWidget extends StatelessWidget {
                 backgroundColor: AppColors.blackColor,
                 child: CircleAvatar(
                   radius: 14,
-                  backgroundImage: NetworkImage(users[i]),
+                  backgroundImage: NetworkImage(users[i].avatarUrl),
                 ),
               ),
             ),

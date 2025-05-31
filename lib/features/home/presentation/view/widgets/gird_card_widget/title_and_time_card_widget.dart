@@ -5,17 +5,27 @@ import '../../../../../../common/constants/assets.dart';
 import '../../../../../../common/constants/fonts.dart';
 
 class TitleAndTimeCardWIidget extends StatelessWidget {
-  const TitleAndTimeCardWIidget({super.key});
+  const TitleAndTimeCardWIidget({
+    super.key,
+    required this.title,
+    required this.time,
+  });
+
+  final String title, time;
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          "Item title",
-          style: AppFont.styleRegular18.copyWith(color: Colors.white),
+        FittedBox(
+          fit: BoxFit.scaleDown,
+          child: Text(
+            title,
+            style: AppFont.styleRegular18.copyWith(color: Colors.white),
+          ),
         ),
+
         SizedBox(height: 10.0),
         Row(
           children: [
@@ -25,11 +35,7 @@ class TitleAndTimeCardWIidget extends StatelessWidget {
               child: FittedBox(
                 alignment: AlignmentDirectional.centerStart,
                 fit: BoxFit.scaleDown,
-                child: Text(
-                  "Jan 16 - Jan 20, 2024",
-                  maxLines: 1,
-                  style: AppFont.styleRegular12,
-                ),
+                child: Text(time, maxLines: 1, style: AppFont.styleRegular12),
               ),
             ),
           ],

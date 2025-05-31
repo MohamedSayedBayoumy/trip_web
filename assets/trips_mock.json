@@ -9,11 +9,26 @@
         "end": "20-01-2024"
       },
       "participants": [
-        { "name": "Emily Clarke", "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww" },
-        { "name": "Nina Müller", "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Sofia Rossi", "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Elena Petrova", "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Lars Jensen", "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww" }
+        {
+          "name": "Emily Clarke",
+          "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww"
+        },
+        {
+          "name": "Nina Müller",
+          "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Sofia Rossi",
+          "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Elena Petrova",
+          "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Lars Jensen",
+          "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww"
+        }
       ],
       "unfinished_tasks": 4,
       "cover_image": "https://i.pinimg.com/736x/2e/26/fc/2e26fcdea8b8c38b6f97a5c2722b23c1.jpg"
@@ -24,13 +39,25 @@
       "title": "Santorini Dream Escape",
       "dates": {
         "start": "16-01-2024",
-        "end": "20-01-2024"
+        "end": "20-02-2024"
       },
       "participants": [
-        { "name": "Lucas Martinez", "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Chloe Dubois", "avatar_url":   "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Olivia Smith", "avatar_url":   "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Daniel Kim", "avatar_url":     "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww" }
+        {
+          "name": "Lucas Martinez",
+          "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Chloe Dubois",
+          "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Olivia Smith",
+          "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Daniel Kim",
+          "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww"
+        }
       ],
       "unfinished_tasks": 4,
       "cover_image": "https://images.unsplash.com/photo-1465156799763-2c087c332922?auto=format&fit=crop&w=800&q=80"
@@ -41,10 +68,13 @@
       "title": "Maldives Island Retreat",
       "dates": {
         "start": "16-01-2024",
-        "end": "20-01-2024"
+        "end": "20-03-2024"
       },
       "participants": [
-        { "name": "Liam Wong", "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" }
+        {
+          "name": "Liam Wong",
+          "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        }
       ],
       "unfinished_tasks": 4,
       "cover_image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
@@ -58,8 +88,14 @@
         "end": "20-01-2024"
       },
       "participants": [
-        { "name": "Amélie Laurent", "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Mateo Alvarez", "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" }
+        {
+          "name": "Amélie Laurent",
+          "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Mateo Alvarez",
+          "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        }
       ],
       "unfinished_tasks": 4,
       "cover_image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80"
@@ -73,9 +109,18 @@
         "end": "20-01-2024"
       },
       "participants": [
-        { "name": "Isabella Greco", "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "David Johnson", "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww" },
-        { "name": "Ella Thompson", "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" }
+        {
+          "name": "Isabella Greco",
+          "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "David Johnson",
+          "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww"
+        },
+        {
+          "name": "Ella Thompson",
+          "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        }
       ],
       "unfinished_tasks": 4,
       "cover_image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
@@ -86,15 +131,124 @@
       "title": "Tokyo City Lights",
       "dates": {
         "start": "16-01-2024",
-        "end": "20-01-2024"
+        "end": "20-04-2024"
       },
       "participants": [
-        { "name": "Hiroshi Tanaka", "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Mia Chen", "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" },
-        { "name": "Kenji Saito", "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww" }
+        {
+          "name": "Hiroshi Tanaka",
+          "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Mia Chen",
+          "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Kenji Saito",
+          "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww"
+        }
       ],
       "unfinished_tasks": 4,
       "cover_image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3",
+      "status": "Ready for travel",
+      "title": "Maldives Island Retreat",
+      "dates": {
+        "start": "16-01-2024",
+        "end": "20-01-2024"
+      },
+      "participants": [
+        {
+          "name": "Liam Wong",
+          "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        }
+      ],
+      "unfinished_tasks": 4,
+      "cover_image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "4",
+      "status": "Proposal Sent",
+      "title": "Paris Getaway",
+      "dates": {
+        "start": "16-01-2024",
+        "end": "20-01-2024"
+      },
+      "participants": [
+        {
+          "name": "Amélie Laurent",
+          "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Mateo Alvarez",
+          "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        }
+      ],
+      "unfinished_tasks": 4,
+      "cover_image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "1",
+      "status": "Proposal Sent",
+      "title": "Banff National Park Adventure",
+      "dates": {
+        "start": "16-01-2024",
+        "end": "20-01-2024"
+      },
+      "participants": [
+        {
+          "name": "Emily Clarke",
+          "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww"
+        },
+        {
+          "name": "Nina Müller",
+          "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Sofia Rossi",
+          "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Elena Petrova",
+          "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Lars Jensen",
+          "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww"
+        }
+      ],
+      "unfinished_tasks": 4,
+      "cover_image": "https://i.pinimg.com/736x/2e/26/fc/2e26fcdea8b8c38b6f97a5c2722b23c1.jpg"
+    },
+    {
+      "id": "2",
+      "status": "Pending Approval",
+      "title": "Santorini Dream Escape",
+      "dates": {
+        "start": "16-01-2024",
+        "end": "20-05-2024"
+      },
+      "participants": [
+        {
+          "name": "Lucas Martinez",
+          "avatar_url": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Chloe Dubois",
+          "avatar_url": "https://plus.unsplash.com/premium_photo-1669703777437-27602d656c27?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Olivia Smith",
+          "avatar_url": "https://images.unsplash.com/photo-1488161628813-04466f872be2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Daniel Kim",
+          "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGVvcGxlfGVufDB8fDB8fHww"
+        }
+      ],
+      "unfinished_tasks": 4,
+      "cover_image": "https://images.unsplash.com/photo-1465156799763-2c087c332922?auto=format&fit=crop&w=800&q=80"
     }
   ]
 }

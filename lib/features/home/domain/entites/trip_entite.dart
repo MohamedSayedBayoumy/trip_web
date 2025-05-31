@@ -1,6 +1,9 @@
+import 'dart:ui';
+
 class TripModel {
   final String id;
   final String status;
+  final Color mainColor;
   final String title;
   final TripTime dates;
   final List<Participant> participants;
@@ -15,12 +18,13 @@ class TripModel {
     required this.participants,
     required this.unfinishedTasks,
     required this.coverImage,
+    required this.mainColor,
   });
 }
 
 class TripTime {
-  final String start;
-  final String end;
+  final DateTime start;
+  final DateTime end;
 
   TripTime({required this.start, required this.end});
 }

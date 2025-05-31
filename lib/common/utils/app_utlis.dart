@@ -18,4 +18,17 @@ abstract class AppUtils {
 
   static double getCurrentPadding(BuildContext context) =>
       isMobile(context) ? 20.0 : 80;
+
+  static String formatDateRange(DateTime startDate, DateTime endDate) {
+    int nights = endDate.difference(startDate).inDays;
+
+    String formattedStart = DateFormat('MMM d').format(startDate);
+    String formattedEnd = DateFormat('MMM d').format(endDate);
+    String formattedYear = DateFormat('yyyy').format(endDate);
+
+    String result =
+        "$nights Nights ($formattedStart - $formattedEnd, $formattedYear)";
+
+    return result;
+  }
 }

@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:shadcn_ui/shadcn_ui.dart';
 
 import 'common/routes/route_buillder.dart';
+import 'common/services/get_it_services.dart';
 
 void main() {
+  ServicesLocator.service();
   runApp(const MyApp());
 }
 

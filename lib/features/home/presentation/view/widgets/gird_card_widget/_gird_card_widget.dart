@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
+import '../../../../domain/entites/trip_entite.dart';
 import 'card_details_widget.dart';
 import 'image_widget.dart';
 
 class GirdCardWidget extends StatelessWidget {
-  const GirdCardWidget({super.key});
+  const GirdCardWidget({super.key, required this.tripModel});
+
+  final TripModel tripModel;
 
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        ImageWidget(
-          image:
-              "https://images.unsplash.com/photo-1444065381814-865dc9da92c0?auto=format&fit=crop&w=800&q=80",
-        ),
-        Positioned.fill(child: CardDetailsWidget()),
+        ImageWidget(image: tripModel.coverImage),
+        Positioned.fill(child: CardDetailsWidget(model: tripModel)),
       ],
     );
   }
